@@ -1,0 +1,18 @@
+0.다중 클래스 id 값은 x 하지말것 
+
+비슷한 속성을 줘야하는 태그가 여러개 일 때
+
+1.position
+
+relative : 본인의 위치를 기준으로 배치
+absolute : 브라우져 창을 기준으로 배치
+fixed : 브라우져창으로 배치가 되고 배치가된자리에 스크롤을 움직여도 고정되어있음
+
+2. 레이아웃 : inline-block, none, block, inline, flex,grid, float
+
+1. float를 이용한 레이아웃 구성 
+2. inline-block을 이용한 레이아웃 구성 
+
+3.  max-width
+
+가용한 최대값 % 를 줄때 따라와야 함

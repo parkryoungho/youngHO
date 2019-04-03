@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 400px;;
+
+        }
+        .box1{
+            background: tomato;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        .box2{
+            background: aquamarine;
+        }
+        .box.box1.box2{
+            width: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        Relative
+    </div>
+    
+    <div class="box box2">
+        Relative2
+    </div>
+
+    <div class="box box1 box2">
+            Relative2
+        </div>
+
+</body>
+</html>
+
+<!--다중 클래스-->
